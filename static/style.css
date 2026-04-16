@@ -1,0 +1,71 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #2c5364;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #24506c;
+}
+
+.result {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.summary-box {
+    border: 2px solid #2c5364;
+    border-radius: 10px;
+    padding: 18px;
+    background: #f8fbff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.summary-box h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #1f4f7c;
+}
+
+.summary-box ul {
+    list-style: disc inside;
+    margin: 0;
+    padding: 0;
+}
+
+.summary-box ul li {
+    margin-bottom: 6px;
+    line-height: 1.4;
+}
+
+.summary-box .prediction-label {
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #244f6c;
+}
